@@ -1,0 +1,14 @@
+	{
+	"name": "rainbow_modules",
+	"version": "1.0.0",
+	"title": "Rainbow Modules",
+	"author": "Kabury",
+	"contact": "",
+	"homepage": "",
+	"dependencies": [
+		"base >= 2.0",
+		"? space-age"
+	],
+	"description": "Adds new color modules. Space age compatible",
+	"factorio_version": "2.0"
+}
