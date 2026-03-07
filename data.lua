@@ -1,11 +1,17 @@
-require("prototypes.items")
-require("prototypes.recipes")
-require("prototypes.technologies")
+require("prototypes.vanilla-items")
+require("prototypes.vanilla-recipes")
+require("prototypes.vanilla-technologies")
 
 if feature_flags["quality"] then
-    require("prototypes.spage-items")
-    require("prototypes.spage-recipes")
-    require("prototypes.spage-technologies")
+    require("prototypes.quality-items")
+    require("prototypes.quality-recipes")
+    require("prototypes.quality-technologies")
+end
+
+if mods["pypostprocessing"] then
+    require("prototypes.py-items")
+    require("prototypes.py-recipes")
+    require("prototypes.py-technologies")
 end
 
 if settings.startup["rm-novanilla"].value then
@@ -20,7 +26,9 @@ if settings.startup["rm-novanilla"].value then
         data.raw["module"][v].effect = {}
     end
 end
+
 if settings.startup["rm-white3q"].value then
     data.raw["module"]["rm-module30"].effect.quality=0.05
 end
+
 
