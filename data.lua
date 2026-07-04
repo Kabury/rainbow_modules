@@ -28,7 +28,7 @@ if settings.startup["rm-novanilla"].value then
 end
 
 if settings.startup["rm-white3q"].value then
-    data.raw["module"]["rm-module30"].effect.quality=0.05
+    data.raw["module"]["rm-module30"].effect.quality=0.005
 end
 
 

@@ -5,7 +5,7 @@ data:extend({
     icon = "__rainbow_modules__/graphics/icons/module10.png",
     icon_size = 64,
     enabled = false,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     energy_required = 10,
     ingredients =
     {
@@ -83,7 +83,7 @@ data:extend({
     icon = "__rainbow_modules__/graphics/icons/module22.png",
     icon_size = 64,
     enabled = false,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     energy_required = 20,
     ingredients =
     {

@@ -21,9 +21,9 @@ end
 local module_cats = {"qual", "qual", "qual"}
 local module_tier = {1, 2, 3}
 local module_effects = {
-{consumption = 0.3, pollution = 0.3, speed = -0.12, productivity= -0.03,quality=0.1},
-{quality=0.2},
-{quality=0.3}}
+{consumption = 0.3, pollution = 0.3, speed = -0.12, productivity= -0.03,quality=0.01},
+{quality=0.02},
+{quality=0.03}}
 local module_tints = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}
 
 for k, v in pairs(indexes) do
@@ -39,6 +39,6 @@ for k, v in pairs(indexes) do
     data:extend({template})
 end
 
-data.raw["module"]["rm-module11"].effect.quality=-0.05
-data.raw["module"]["rm-module13"].effect.quality=-0.05
-data.raw["module"]["rm-module15"].effect.quality=-0.05
+data.raw["module"]["rm-module11"].effect.quality=-0.005
+data.raw["module"]["rm-module13"].effect.quality=-0.005
+data.raw["module"]["rm-module15"].effect.quality=-0.005

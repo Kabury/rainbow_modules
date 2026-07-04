@@ -5,7 +5,7 @@ data:extend({
     icon = "__rainbow_modules__/graphics/icons/module19.png",
     icon_size = 64,
     enabled = false,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     energy_required = 10,
     ingredients =
     {
